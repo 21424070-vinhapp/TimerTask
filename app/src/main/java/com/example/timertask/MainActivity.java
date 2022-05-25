@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                      String value=simpleDateFormat.format(calendar.getTime());
                      mainBinding.txtView.setText(value+"");
 
-                     int alpha=288;
+                     int alpha=255;
                      int red= random.nextInt(256);
                      int green= random.nextInt(256);
                      int blue= random.nextInt(256);
